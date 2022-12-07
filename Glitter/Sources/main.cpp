@@ -84,6 +84,8 @@ int main() {
     glfwSwapBuffers(mWindow);
     glfwPollEvents();
   }
+  glDeleteVertexArrays(1, &VAO);
+  glDeleteBuffers(1, &VBO);
   glfwTerminate();
   return EXIT_SUCCESS;
 }
