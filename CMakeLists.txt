@@ -1,7 +1,6 @@
 cmake_minimum_required(VERSION 3.0)
 project(Glitter)
 
-option(GLFW_USE_WAYLAND ON)
 option(GLFW_BUILD_DOCS OFF)
 option(GLFW_BUILD_EXAMPLES OFF)
 option(GLFW_BUILD_TESTS OFF)
