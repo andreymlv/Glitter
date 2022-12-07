@@ -17,7 +17,7 @@ Now generate a project file or makefile for your platform. If you want to use a 
 
 ```bash
 # UNIX Makefile
-cmake ..
+cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=1 -DCMAKE_BUILD_TYPE=Debug ..
 
 # Mac OSX
 cmake -G "Xcode" ..
